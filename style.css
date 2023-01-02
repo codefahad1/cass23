@@ -1,0 +1,165 @@
+
+
+
+.menu{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+ul li a{
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+.contain{
+    display: flex;
+    flex: 1;
+}
+.leftt ,.centerr ,.rightt{
+    border: 1px solid green;
+    width: 30%;
+    height: 240px;
+    margin-right: 45px;
+}
+.rightt{
+    margin-right: 0;
+}
+
+
+.centerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end ;
+    height:100%;
+}
+
+
+
+h5 {
+    background: red;
+    display: inline-block;
+    padding: 15px 8px;
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+}
+.first{
+
+    background: red;
+    display: inline-block;
+    padding: 15px 8px;
+    font-size: 13px;
+    margin: 0;
+
+}
+.sceond{
+    
+}
+.third{
+ 
+}
+
+.div1 ,.div2 ,.div3{
+    border: 1px solid green;
+    padding: 15px;
+    
+}
+.div11 ,.div22 ,.div33{
+    width: 37%;
+    height: 174px;
+    border: 1px solid green;
+    padding: 15px;
+}
+
+.containn{
+    display: flex;
+
+
+}
+.div4{
+    display: flex;
+    height: 150px ;
+
+
+}
+.div5 ,.div6 ,.div7{
+    display: flex;
+
+}
+.div40{
+    border: 1px solid green;
+    background: red;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.div {
+    border: 1px solid green;
+    background: red;
+    height: 40px;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+}
+
+
+.sidebar{
+    background-color: darkgrey;
+    border-left: 2px solid red;
+    height: 100%;
+    padding: 15px;
+}
+.sidebar h5{
+    color: black;
+    font-weight: 600;
+    background:none;
+}
+.col-md-3{
+    padding: 0;
+}
+
+
+.div5{
+    display: flex;
+    border: 1px solid green;
+
+}
+h6{
+    font-size: 10px;
+    color: white;
+}
+
+.footer{
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-div{
+    text-decoration: underline;
+    padding: 20px 10px;
+}
+.div111{
+    display: flex;
+
+}
+.div15{
+    justify-content: center;
+    align-items: center;
+}
+.div16{
+    justify-content: end;
+    align-items: flex-end;
+}
+.div33 .div111 .div4 .div{
+    padding: 9px 20px;
+}
